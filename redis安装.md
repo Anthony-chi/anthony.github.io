@@ -7,6 +7,7 @@
 7、进入vim /etc/profile目录，里面有个profile文件，把你的redis执行程序注册在里面，就跟java的javahome一样
 export REDIS_HOME=/opt/redis5
 export PATH=$PATH=$REDIS_HOME/bin
+8、然后重新加载配置文件到内存 source /etc/profile，echo $PATH
 
 
 以上1-6步骤，redis在liunux环境安装完毕。
