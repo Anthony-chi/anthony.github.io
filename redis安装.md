@@ -6,7 +6,7 @@
 6、准备就绪，就可以用make命令编译redis，安装redis。也可以用指定到目录下的安装方式，比如：make install PREFIX=/otp/redis5
 7、进入vim /etc/profile目录，里面有个profile文件，把你的redis执行程序注册在里面，就跟java的javahome一样
 export REDIS_HOME=/opt/redis5
-export PATH=$PATH=$REDIS_HOME/bin
+export PATH=$PATH:$REDIS_HOME/bin
 8、然后重新加载配置文件到内存 source /etc/profile，echo $PATH
 
 
