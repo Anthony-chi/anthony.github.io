@@ -36,3 +36,5 @@ Is this ok? Then press ENTER to go on or Ctrl-C to abort.
   d）脚本还会帮你启动。
 
 以上1-11步骤，redis在liunux环境安装完毕。
+
+ps -fe | grep redis
