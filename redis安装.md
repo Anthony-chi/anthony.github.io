@@ -3,6 +3,6 @@
 3、在home下创建一个文件夹soft，然后执行wget http://download.redis.io/releases/redis-5.0.7.tar.gz
 4、然后在soft文件夹下解压tar xf redis-5.0.7.tar.gz
 5、要安装redis需要安装gcc，有个gcc才有redis的编译环境，yum install gcc
-6、准备就绪，就可以用make命令编译redis，安装redis。
+6、准备就绪，就可以用make命令编译redis，安装redis。也可以用指定到目录下的安装方式，比如：make install PREFIX=/otp/redis5
 
 以上1-6步骤，redis在liunux环境安装完毕。
